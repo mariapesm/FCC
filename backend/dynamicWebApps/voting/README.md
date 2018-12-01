@@ -139,4 +139,4 @@ Anyway, after I got the persistence issues ironed out, my tests revealed that I 
 With the back-end squared away and well documented, finishing up the client was pretty easy. I choose not to add any front end or integration tests this time, but I plan on doing that for my next project. The final step was to run the build process and figure out how to server the client from express. The `create-react-app` README had a section on how to set this up which helped out. Basically you add a catchall in the express server that serves the compiled client (`client/build/index.html` in my case), so that all routes will get the react app, and the client side router will jump into action to hook into the appropriate `/api` or `/auth` routes.
 
 
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
